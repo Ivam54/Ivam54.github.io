@@ -1,0 +1,18 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-content: flex-start;
+  height: 300px;
+  border: 1px dashed yellow;
+  background-color: #ff5999;
+}
+.container li {
+  /*flex-grow: 1;*/
+  margin-top: 5px;
+  margin-bottom: 2px;
+  margin-right: 8px;
+  background-color: #f55555;
+  list-style-type: none;
+  font-size: 50px;
+}
